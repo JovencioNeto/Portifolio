@@ -56,6 +56,15 @@ a:hover {
   transform: scale(1.05);
 }
 
+h2.titulo {
+  color: #fff;
+  font-size: 38px;
+  text-align: center;
+}
+h2.titulo span {
+  color: #00ff08;
+}
+
 header {
   padding: 40px 4%;
 }
@@ -72,27 +81,27 @@ header .interface {
   justify-content: space-between;
 }
 
-section {
+section.topo-do-site {
   padding: 40px 4%;
 }
-section .flex {
+section.topo-do-site .flex {
   align-items: center;
   justify-content: center;
   gap: 90px;
 }
-section .interface h1 {
+section.topo-do-site .interface h1 {
   color: #fff;
   font-size: 42px;
   line-height: 40px;
 }
-section .interface h1 span {
+section.topo-do-site .interface h1 span {
   color: #00ff08;
 }
-section .interface p {
+section.topo-do-site .interface p {
   color: #fff;
   margin: 40px 0;
 }
-section .interface img {
+section.topo-do-site .interface img {
   position: relative;
   animation: flutuar 2s ease-in-out infinite alternate;
 }
@@ -104,6 +113,31 @@ section .interface img {
   100% {
     top: 30px;
   }
+}
+section.especialidades {
+  padding: 40px 4%;
+}
+section.especialidades .flex {
+  gap: 60px;
+}
+section.especialidades .especialidades-box {
+  color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  margin-top: 45px;
+  transition: 0.2s;
+}
+section.especialidades .especialidades-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.4705882353);
+}
+section.especialidades .especialidades-box i {
+  font-size: 70px;
+  color: #00ff08;
+}
+section.especialidades .especialidades-box h3 {
+  font-size: 28px;
+  margin: 15px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
