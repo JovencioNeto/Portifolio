@@ -68,6 +68,10 @@ h2.titulo{
         color: #00ff08;
     }
 }
+button:hover{
+    box-shadow: 0 0 8px #00ff08;
+    transform: scale(1.05);
+}
 // Estilo do cabeçalho
 
 header{
@@ -158,4 +162,53 @@ section.especialidades{
             margin: 15px 0;
         }
     }
+}
+
+// Estilo do sobre
+
+section.sobre{
+    padding: 80px 4%;
+
+    .flex{
+        align-items: center;
+        gap: 60px;
+    }
+    .txt-sobre{
+        color: #fff;
+
+        .btn-social{
+            button{
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                border: none;
+                font-size: 22px;
+                cursor: pointer;
+                margin: 0 5px  ;
+                background-color: #00ff08;
+                transition: .2s;
+            }
+        }
+        h2{
+            font-size: 40px;
+            line-height: 40px;
+            margin-bottom: 30px;
+
+            span{
+                color: #00ff08;
+                display: block;
+            }
+        }
+        p{
+            margin: 20px 0;
+            text-align: justify;
+        }
+    }
+}
+
+// Estilo do PORTFÓLIO
+
+section.portfolio{
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #fff;
 }
