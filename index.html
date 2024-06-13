@@ -13,6 +13,11 @@
     <!-- BOOSTRAP ICONS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!--FIM BOOSTRAP ICONS -->
+
+    <!-- ICON ABA -->
+    <link rel="icon" type="image/x-icon" href="">
+    <!--FIM do ICON ABA -->
+
     <title>Jovêncio Neto</title>
 </head>
 <body>
@@ -27,12 +32,29 @@
                     <li> <a href="#">Especialidades</a></li>
                     <li> <a href="#">Projetos</a></li>
                     <li> <a href="#">Sobre</a></li>
+                    <li> <a href="#">Contato</a></li>
                 </ul>
             </nav>
 
             <div class="btn-contato">
                 <a href="#"><button>Contato</button></a>
             </div>
+
+            <!-- <div class="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li> <a href="#">Início</a></li>
+                        <li> <a href="#">Especialidades</a></li>
+                        <li> <a href="#">Projetos</a></li>
+                        <li> <a href="#">Sobre</a></li>
+                        <li> <a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+            </div> -->
         </div>
     </header>
 
@@ -95,8 +117,8 @@
                         e constantemente busco aprimorar-me nos meus saberes e busco sempre novos conhecimentos, pretendo me graduar em Engenharia da computação e seguir nessa carreira de programador.</p>
                         <div class="btn-social">
                             <a href="#"><button><i class="bi bi-instagram"></i></button></a>
-                            <a href="#"><button><i class="bi bi-github"></i></button></a>
-                            <a href="#"><button><i class="bi bi-linkedin"></i></button></a>
+                            <a href="https://github.com/JovencioNeto"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.linkedin.com/in/jov%C3%AAncio-neto-a872122b8/"><button><i class="bi bi-linkedin"></i></button></a>
                             <a href="#"><button><i class="bi bi-facebook"></i></button></a>
                         </div>
                     </div>
@@ -109,13 +131,55 @@
             <div class="interface">
                 <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
                 <div class="flex">
-                    <div class="img-portfolio"></div>
-                    <div class="img-portfolio"></div>
-                    <div class="img-portfolio"></div>
+                    <div class="img-portfolio" style="background-image: url(./src/img/portfolio_1.png);">
+                        <div class="overlay">Projeto 1</div>
+                    </div>
+                    <div class="img-portfolio" style="background-image: url(./src/img/portfolio_2.png);">
+                        <div class="overlay">Projeto 2</div>
+                    </div>
+                    <div class="img-portfolio" style="background-image: url(./src/img/portfolio_3.png);">
+                        <div class="overlay">Projeto 3</div>
+                    </div>
 
                 </div>
             </div>
         </section>
+
+        <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo">DESEJA <span>ME CONTATAR?</span></h2>
+
+                <form action="">
+                    
+                    <input type="text" name="" id="" placeholder="Seu nome" required>
+                    <input type="text" name="" id="" placeholder="Seu e-mail" required>
+                    <input type="text" name="" id="" placeholder="Seu telefone" required>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+
+                    <div class="btn-enviar"><button type="submit" value="ENVIAR">ENVIAR</button></div>
+                </form>
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo"><a href="#"><h1 class="logo-icon">JN</h1></a></div> 
+
+                    <div class="btn-social">
+                        <a href="#"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="https://github.com/JovencioNeto"><button><i class="bi bi-github"></i></button></a>
+                        <a href="https://www.linkedin.com/in/jov%C3%AAncio-neto-a872122b8/"><button><i class="bi bi-linkedin"></i></button></a>
+                        <a href="#"><button><i class="bi bi-facebook"></i></button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-at"></i> <a href="mailto:jovencioneto@hotmail.com">jovencioneto@hotmail.com</a></p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
